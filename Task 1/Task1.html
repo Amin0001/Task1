@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Information</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+   <div class="sec1"></div>
+    <div class="container">
+      <h1 data-testid="slackUserName">Aminu Muhammed-Lawal</h1>
+      <img
+        class="rounded-image"
+        src="amin.jpg"
+        alt="Aminu Muhammed-Lawal"
+        data-testid="slackDisplayImage"
+        style=" border-radius: 100px;
+  max-width: 100px;
+  height: auto;
+  margin: 20px 0;"
+      />
+      <p class="label">Current day of the week:<span data-testid="currentDayOfTheWeek"></span></p>
+      
+
+      <div>
+        <p class="label">Time:<span data-testid="currentUTCTime" id="digital-clock">00:00:00</span></p>
+      </div>
+       <div>
+        <p class="label">Track:<span data-testid="myTrack">Front-end/Back-end</span></p>
+        </div>
+       <label>Github url:<a href=""></a></label>
+    </div>
+      
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
